@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <title>Joe's Awesome Vizzes</title>
+  </head>
+  <body>
+    <h1>🌹🐱‍🐉Joe's Awesome Vizzes 🐱‍🐉🌹</h1>
+    <h3>Powered by Tableau</h3>
+
+    <div id="showhidebuttons">
+      <button id="hideViz">Hide Viz</button>
+      <button id="showViz">Show Viz</button>
+    </div>
+    <hr />
+    <div id="filterbuttons">
+      <button class="filter" value="Central">Central</button>
+      <button class="filter" value="North">North</button>
+      <button class="filter" value="South">South</button>
+      <button class="filter" id="All">All</button>
+    </div>
+    <div id="vizContainer"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
